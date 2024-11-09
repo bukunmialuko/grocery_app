@@ -1,9 +1,18 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:grocery_app/router/app_router.dart';
 
-void main() {
-  runApp(const MyApp());
+Future<void> main() async {
+  return runZonedGuarded(() async {
+    WidgetsFlutterBinding.ensureInitialized();
+
+    runApp(const MyApp());
+  }, (error, stackTrace) {
+    debugPrint(stackTrace.toString());
+    debugPrint(error.toString());
+  });
 }
 
 GoRouter appRouter = const AppModuleRouter().createApplicationRouter();
