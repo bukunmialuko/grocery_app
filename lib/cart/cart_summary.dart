@@ -11,7 +11,7 @@ class CartSummaryCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return SafeArea(
       child: GestureDetector(
-        onTap: () => context.goNamed('cart'),
+        onTap: () => context.pushNamed('cart'),
         child: Align(
           alignment: Alignment.bottomCenter,
           child: Container(
