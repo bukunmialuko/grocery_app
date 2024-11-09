@@ -1,0 +1,77 @@
+import 'package:grocery_app/generated/assets.gen.dart';
+import 'package:grocery_app/groceries/grocery_model.dart';
+
+List<GroceryModel> groceries = [
+  GroceryModel(
+    name: 'Red oak lettuce',
+    asset: Assets.vegetables.redOakLettuce.path,
+    unitPrice: 0,
+    unitWeight: 1,
+    calorie: 1,
+    proteins: 1,
+    fats: 1,
+    carbs: 2,
+  ),
+  GroceryModel(
+    name: 'White Cabbage',
+    asset: Assets.vegetables.whiteCabbage.path,
+    unitPrice: 0,
+    unitWeight: 1,
+    calorie: 1,
+    proteins: 1,
+    fats: 1,
+    carbs: 2,
+  ),
+  GroceryModel(
+    name: 'Red Cabbage',
+    asset: Assets.vegetables.redCabbage.path,
+    unitPrice: 0,
+    unitWeight: 1,
+    calorie: 1,
+    proteins: 1,
+    fats: 1,
+    carbs: 2,
+  ),
+  GroceryModel(
+    name: 'Napa Cabbage',
+    asset: Assets.vegetables.napaCabbage.path,
+    unitPrice: 0,
+    unitWeight: 1,
+    calorie: 1,
+    proteins: 1,
+    fats: 1,
+    carbs: 2,
+  ),
+  GroceryModel(
+    name: 'Kohlrabi',
+    asset: Assets.vegetables.kohlrabi.path,
+    unitPrice: 0,
+    unitWeight: 1,
+    calorie: 1,
+    proteins: 1,
+    fats: 1,
+    carbs: 2,
+  ),
+  GroceryModel(
+    name: 'Broccoli',
+    asset: Assets.vegetables.broccoli.path,
+    unitPrice: 0,
+    unitWeight: 1,
+    calorie: 1,
+    proteins: 1,
+    fats: 1,
+    carbs: 2,
+  ),
+  //
+
+  GroceryModel(
+    name: 'Pea',
+    asset: Assets.vegetables.pea.path,
+    unitPrice: 0,
+    unitWeight: 1,
+    calorie: 1,
+    proteins: 1,
+    fats: 1,
+    carbs: 2,
+  ),
+];
